@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B55AB6E41A5AC47A00A80877 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B55AB6E31A5AC47A00A80877 /* main.m */; };
+		B55AB6E71A5AC47A00A80877 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B55AB6E61A5AC47A00A80877 /* AppDelegate.m */; };
+		B55AB6EA1A5AC47A00A80877 /* FRCDeadlock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B55AB6E81A5AC47A00A80877 /* FRCDeadlock.xcdatamodeld */; };
+		B55AB6ED1A5AC47A00A80877 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B55AB6EC1A5AC47A00A80877 /* MasterViewController.m */; };
+		B55AB6F31A5AC47A00A80877 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55AB6F11A5AC47A00A80877 /* Main.storyboard */; };
+		B55AB6F51A5AC47A00A80877 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55AB6F41A5AC47A00A80877 /* Images.xcassets */; };
+		B55AB6F81A5AC47A00A80877 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B55AB6F61A5AC47A00A80877 /* LaunchScreen.xib */; };
+		B55AB7041A5AC47B00A80877 /* FRCDeadlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B55AB7031A5AC47B00A80877 /* FRCDeadlockTests.m */; };
+		B55AB70F1A5AC76600A80877 /* ContextManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B55AB70E1A5AC76600A80877 /* ContextManager.m */; };
+		B55AB7121A5AD6D700A80877 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = B55AB7111A5AD6D700A80877 /* Event.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B55AB6FE1A5AC47A00A80877 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B55AB6D61A5AC47A00A80877 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B55AB6DD1A5AC47A00A80877;
+			remoteInfo = FRCDeadlock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B55AB6DE1A5AC47A00A80877 /* FRCDeadlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRCDeadlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55AB6E21A5AC47A00A80877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B55AB6E31A5AC47A00A80877 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B55AB6E51A5AC47A00A80877 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B55AB6E61A5AC47A00A80877 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B55AB6E91A5AC47A00A80877 /* FRCDeadlock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FRCDeadlock.xcdatamodel; sourceTree = "<group>"; };
+		B55AB6EB1A5AC47A00A80877 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		B55AB6EC1A5AC47A00A80877 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		B55AB6F21A5AC47A00A80877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B55AB6F41A5AC47A00A80877 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B55AB6F71A5AC47A00A80877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B55AB6FD1A5AC47A00A80877 /* FRCDeadlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRCDeadlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55AB7021A5AC47B00A80877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B55AB7031A5AC47B00A80877 /* FRCDeadlockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRCDeadlockTests.m; sourceTree = "<group>"; };
+		B55AB70D1A5AC76600A80877 /* ContextManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextManager.h; sourceTree = "<group>"; };
+		B55AB70E1A5AC76600A80877 /* ContextManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextManager.m; sourceTree = "<group>"; };
+		B55AB7101A5AD6D700A80877 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		B55AB7111A5AD6D700A80877 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B55AB6DB1A5AC47A00A80877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55AB6FA1A5AC47A00A80877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B55AB6D51A5AC47A00A80877 = {
+			isa = PBXGroup;
+			children = (
+				B55AB6E01A5AC47A00A80877 /* FRCDeadlock */,
+				B55AB7001A5AC47B00A80877 /* FRCDeadlockTests */,
+				B55AB6DF1A5AC47A00A80877 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B55AB6DF1A5AC47A00A80877 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B55AB6DE1A5AC47A00A80877 /* FRCDeadlock.app */,
+				B55AB6FD1A5AC47A00A80877 /* FRCDeadlockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B55AB6E01A5AC47A00A80877 /* FRCDeadlock */ = {
+			isa = PBXGroup;
+			children = (
+				B55AB7131A5AD6E000A80877 /* Data Model */,
+				B55AB6E11A5AC47A00A80877 /* Supporting Files */,
+				B55AB6E51A5AC47A00A80877 /* AppDelegate.h */,
+				B55AB6E61A5AC47A00A80877 /* AppDelegate.m */,
+				B55AB6EB1A5AC47A00A80877 /* MasterViewController.h */,
+				B55AB6EC1A5AC47A00A80877 /* MasterViewController.m */,
+				B55AB70D1A5AC76600A80877 /* ContextManager.h */,
+				B55AB70E1A5AC76600A80877 /* ContextManager.m */,
+				B55AB6F11A5AC47A00A80877 /* Main.storyboard */,
+				B55AB6F41A5AC47A00A80877 /* Images.xcassets */,
+				B55AB6F61A5AC47A00A80877 /* LaunchScreen.xib */,
+			);
+			path = FRCDeadlock;
+			sourceTree = "<group>";
+		};
+		B55AB6E11A5AC47A00A80877 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B55AB6E21A5AC47A00A80877 /* Info.plist */,
+				B55AB6E31A5AC47A00A80877 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B55AB7001A5AC47B00A80877 /* FRCDeadlockTests */ = {
+			isa = PBXGroup;
+			children = (
+				B55AB7031A5AC47B00A80877 /* FRCDeadlockTests.m */,
+				B55AB7011A5AC47B00A80877 /* Supporting Files */,
+			);
+			path = FRCDeadlockTests;
+			sourceTree = "<group>";
+		};
+		B55AB7011A5AC47B00A80877 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B55AB7021A5AC47B00A80877 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B55AB7131A5AD6E000A80877 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				B55AB6E81A5AC47A00A80877 /* FRCDeadlock.xcdatamodeld */,
+				B55AB7101A5AD6D700A80877 /* Event.h */,
+				B55AB7111A5AD6D700A80877 /* Event.m */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B55AB6DD1A5AC47A00A80877 /* FRCDeadlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55AB7071A5AC47B00A80877 /* Build configuration list for PBXNativeTarget "FRCDeadlock" */;
+			buildPhases = (
+				B55AB6DA1A5AC47A00A80877 /* Sources */,
+				B55AB6DB1A5AC47A00A80877 /* Frameworks */,
+				B55AB6DC1A5AC47A00A80877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FRCDeadlock;
+			productName = FRCDeadlock;
+			productReference = B55AB6DE1A5AC47A00A80877 /* FRCDeadlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B55AB6FC1A5AC47A00A80877 /* FRCDeadlockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55AB70A1A5AC47B00A80877 /* Build configuration list for PBXNativeTarget "FRCDeadlockTests" */;
+			buildPhases = (
+				B55AB6F91A5AC47A00A80877 /* Sources */,
+				B55AB6FA1A5AC47A00A80877 /* Frameworks */,
+				B55AB6FB1A5AC47A00A80877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B55AB6FF1A5AC47A00A80877 /* PBXTargetDependency */,
+			);
+			name = FRCDeadlockTests;
+			productName = FRCDeadlockTests;
+			productReference = B55AB6FD1A5AC47A00A80877 /* FRCDeadlockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B55AB6D61A5AC47A00A80877 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Lantean;
+				TargetAttributes = {
+					B55AB6DD1A5AC47A00A80877 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B55AB6FC1A5AC47A00A80877 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B55AB6DD1A5AC47A00A80877;
+					};
+				};
+			};
+			buildConfigurationList = B55AB6D91A5AC47A00A80877 /* Build configuration list for PBXProject "FRCDeadlock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B55AB6D51A5AC47A00A80877;
+			productRefGroup = B55AB6DF1A5AC47A00A80877 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B55AB6DD1A5AC47A00A80877 /* FRCDeadlock */,
+				B55AB6FC1A5AC47A00A80877 /* FRCDeadlockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B55AB6DC1A5AC47A00A80877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55AB6F31A5AC47A00A80877 /* Main.storyboard in Resources */,
+				B55AB6F81A5AC47A00A80877 /* LaunchScreen.xib in Resources */,
+				B55AB6F51A5AC47A00A80877 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55AB6FB1A5AC47A00A80877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B55AB6DA1A5AC47A00A80877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55AB7121A5AD6D700A80877 /* Event.m in Sources */,
+				B55AB6ED1A5AC47A00A80877 /* MasterViewController.m in Sources */,
+				B55AB6EA1A5AC47A00A80877 /* FRCDeadlock.xcdatamodeld in Sources */,
+				B55AB6E71A5AC47A00A80877 /* AppDelegate.m in Sources */,
+				B55AB6E41A5AC47A00A80877 /* main.m in Sources */,
+				B55AB70F1A5AC76600A80877 /* ContextManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55AB6F91A5AC47A00A80877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55AB7041A5AC47B00A80877 /* FRCDeadlockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B55AB6FF1A5AC47A00A80877 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B55AB6DD1A5AC47A00A80877 /* FRCDeadlock */;
+			targetProxy = B55AB6FE1A5AC47A00A80877 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B55AB6F11A5AC47A00A80877 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B55AB6F21A5AC47A00A80877 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B55AB6F61A5AC47A00A80877 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B55AB6F71A5AC47A00A80877 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B55AB7051A5AC47B00A80877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B55AB7061A5AC47B00A80877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B55AB7081A5AC47B00A80877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FRCDeadlock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B55AB7091A5AC47B00A80877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FRCDeadlock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B55AB70B1A5AC47B00A80877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FRCDeadlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FRCDeadlock.app/FRCDeadlock";
+			};
+			name = Debug;
+		};
+		B55AB70C1A5AC47B00A80877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FRCDeadlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FRCDeadlock.app/FRCDeadlock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B55AB6D91A5AC47A00A80877 /* Build configuration list for PBXProject "FRCDeadlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55AB7051A5AC47B00A80877 /* Debug */,
+				B55AB7061A5AC47B00A80877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B55AB7071A5AC47B00A80877 /* Build configuration list for PBXNativeTarget "FRCDeadlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55AB7081A5AC47B00A80877 /* Debug */,
+				B55AB7091A5AC47B00A80877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B55AB70A1A5AC47B00A80877 /* Build configuration list for PBXNativeTarget "FRCDeadlockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55AB70B1A5AC47B00A80877 /* Debug */,
+				B55AB70C1A5AC47B00A80877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B55AB6E81A5AC47A00A80877 /* FRCDeadlock.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B55AB6E91A5AC47A00A80877 /* FRCDeadlock.xcdatamodel */,
+			);
+			currentVersion = B55AB6E91A5AC47A00A80877 /* FRCDeadlock.xcdatamodel */;
+			path = FRCDeadlock.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B55AB6D61A5AC47A00A80877 /* Project object */;
+}
